@@ -1,0 +1,104 @@
+.container{
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.login, .register{
+    margin: 24px 0;
+}
+.login > h4 {
+    margin-bottom: 12px;
+}
+.register > h4 {
+    margin-bottom: 12px;
+}
+
+
+.loginPage{
+    width: 450px;
+    margin: 36px auto ;
+}
+
+
+
+.RegisterPage{
+    width: 450px;
+    margin: 36px auto ;
+}
+
+
+.custom-nav{
+    background: #f4f4f4;
+    border: 1px solid #cfcfcf;
+    border-radius: 0 0 6px 6px;
+    margin: 0 2px;    
+}
+.nav-link {
+    color: #181818;
+}
+
+
+.inner-container{
+    width: 90%;
+    margin:  0 auto;
+    margin-top: 40px;
+}
+
+.editform{
+    width: 450px;
+    margin: 72px auto ;
+}
+
+.custom-modal{
+    display: block;
+    top:120px;
+}
+
+input[type="file"] {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+.messenger-sec{
+    border: 1px solid #f4f4f4;
+    border-radius: 6px;
+    min-height: 360px;
+    position: relative;
+}
+
+.messenger-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+    padding: 0 24px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.messenger-body{
+    height: 320px;
+    padding: 24px;
+}
+
+.messenger-header > h6{
+    text-align: center;
+    width: calc(100% - 72px);
+}
+
+.messenger-footer{
+    position: absolute;
+    bottom: 0;
+    background: #f4f4f4;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 24px;
+}
+
+.messenger-footer > p {text-wrap: nowrap;}
